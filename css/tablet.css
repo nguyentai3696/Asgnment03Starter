@@ -1,0 +1,238 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  header {
+    position: relative;
+    background-image: linear-gradient(
+        rgba(34, 34, 34, 0.6),
+        rgba(34, 34, 34, 0.6)
+      ),
+      url(../images/banner.jpg);
+    width: auto;
+  }
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 44px;
+    line-height: 1.1;
+  }
+  header p {
+    font-size: 12px;
+  }
+  .text-banner {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: #fff;
+  }
+  /*phần nav*/
+
+  .item {
+    display: inline-block;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  li {
+    padding: 8px 12px;
+  }
+  li.item {
+    border-left: 1px solid #ddd;
+    display: grid;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 8px 38px;
+  }
+
+  li.item:first-child {
+    border: none;
+  }
+  .container-1 ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+  }
+  /*Phần Thông tin cá nhân*/
+
+  section .container-2 {
+    display: flex;
+  }
+  #target {
+    padding: 15px;
+  }
+  #personal-info {
+    padding: 15px;
+  }
+  .container-2 > * {
+    flex: 1;
+  }
+  .icon {
+    margin-left: 20px;
+    color: blue;
+  }
+  /*Phần Thông tin Nghề Nghiệp*/
+
+  .col-- {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .col-sm-6 {
+    box-sizing: border-box;
+    padding: 20px;
+
+    border: 1px solid black;
+  }
+  .col--6 h1 {
+    font-size: 28px;
+  }
+  .col--8 {
+    padding-left: 30px;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 44px;
+    color: blue;
+    margin-right: 30px;
+  }
+  .ic-megaphone,
+  .ic-hotairballoon,
+  .ic-strategy,
+  .ic-basket {
+    height: 45px;
+    width: 45px;
+    color: red;
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 8px;
+    text-align: center;
+    line-height: 1.6em;
+  }
+  .icon--1 {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .icon-1 {
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  #job-info span {
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+    background: #b0c1c9;
+  }
+  .color-span {
+    background: #199cdb;
+  }
+  /*phần Chứng Chỉ Giải Thưởng*/
+  #certificate .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content {
+    margin: 20px;
+  }
+  .card {
+    display: flex;
+    padding: 20px;
+
+    border-bottom: 1px solid #d6c08d;
+  }
+  .card img {
+    flex: 0.3;
+  }
+  .inline-block-1 .inline-block {
+    flex: 0.7;
+    font-size: 14px;
+  }
+  .inline-block-1 {
+    padding-right: 20px;
+    border-right: 1px solid #d6c08d;
+  }
+  .img-card {
+    width: 100%px;
+  }
+  /*phần Dự Án*/
+  .container-4 {
+    display: grid;
+    grid-template-columns: 350px 350px;
+  }
+  .section-content {
+    flex: 0.35;
+  }
+  .title-1 {
+    padding: 20px;
+    border: 1px solid black;
+  }
+  .text--1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .text--1 .year {
+    padding: 8px;
+    margin: 5px;
+    background-color: rgb(47, 47, 209);
+    color: #fff;
+    border-radius: 18px;
+  }
+  table {
+    border: 1px solid black;
+  }
+
+  td {
+    padding: 10px;
+
+    vertical-align: top;
+  }
+  tr {
+    border: 1px solid black;
+  }
+  .section-content table {
+    border-collapse: collapse;
+  }
+  .section-content table tr td {
+    border: 1px solid #000;
+  }
+  .img-content {
+    width: 100%;
+  }
+
+  /*phần footer*/
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 18px;
+    padding: 50px 0px;
+    background-color: #e9ecef;
+  }
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 30px;
+    color: blue;
+  }
+  .footer-icon p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .footer-icon {
+    display: flex;
+    font-size: 14px;
+  }
+}

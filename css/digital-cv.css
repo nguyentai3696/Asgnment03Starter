@@ -1,0 +1,61 @@
+.row {
+  border: 10px solid blue;
+}
+/* .container--2,
+.container--6,
+.container--3,
+.container--4,
+.container--5 {
+  padding: 20px;
+} */
+.goals-text,
+.team-text,
+.timeline-text,
+.Scopes-text,
+.primary-text {
+  display: flex;
+}
+/* .container--3 {
+  border-left: 10px solid blue;
+}
+.container--5 {
+  border-right: 10px solid blue;
+} */
+.icon--1 {
+  margin-top: 10px;
+  width: 32px;
+}
+h1 {
+  font-size: 18px;
+}
+.text--2 {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.goals,
+.team,
+.timeline,
+.Scopes,
+.primary {
+  font-size: 24px;
+  color: blue;
+  border-bottom: 1px solid rgb(56, 55, 55);
+  margin-top: 10px;
+}
+.number {
+  margin: 10px;
+  padding: 10px;
+  color: #fff;
+  border-radius: 50%;
+  border: 1px solid rgb(133, 67, 195);
+  background-color: rgb(133, 67, 195);
+}
+.col-lg-8 {
+  border-right: 10px solid blue;
+}
+.col-sm-12 {
+  border-bottom: 10px solid blue;
+}
+.col-md-12 {
+  border-bottom: 10px solid blue;
+}
